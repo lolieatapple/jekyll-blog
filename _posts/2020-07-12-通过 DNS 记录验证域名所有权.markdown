@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "通过 DNS 记录验证域名所有权——Google Search Console接入"
+date:   2020-07-12 00:35:13 +0800
+categories: front-end
+---
+
+# 通过 DNS 记录验证域名所有权 ——Google Search Console接入
+
+本文介绍如何通过为域名添加TXT字段来验证域名所有权。
+
+在使用Google Search Console时，会被要求输入一长串字符，来验证域名所有权。
+
+可在域名的DNS管理页面，添加一条类型为TXT的记录，主机选@，字段内容填写google提供的那个长串。
+
+添加完成后，等待一段时间，即可生效。
+
